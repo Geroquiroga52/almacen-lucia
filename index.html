@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Almacén Lucía · Cocina de barrio en Villa Crespo</title>
+<meta name="description" content="Almacén Lucía: pizzas al horno de barro, empanadas, milanesas y postres caseros. Reservá tu mesa.">
+<link rel="icon" href="img/pizza.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a href="#inicio" class="brand">Almacén Lucía</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu-nav" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+    <nav id="menu-nav" class="nav">
+      <a href="#carta">Carta</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#visitanos">Horarios</a>
+      <a href="#reservas" class="btn btn-small">Reservar mesa</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1>Cocina de barrio, hecha en el día.</h1>
+        <p>Pizzas al horno de barro, empanadas de la abuela y postres que se terminan rápido. Venite con hambre.</p>
+        <div class="hero-actions">
+          <a href="#carta" class="btn btn-butter">Ver la carta</a>
+          <a href="#reservas" class="btn btn-ghost">Reservar mesa</a>
+        </div>
+      </div>
+      <img class="hero-img" src="img/hero.jpg" alt="Pizza de muzzarella y albahaca recién salida del horno" width="600" height="640">
+    </div>
+  </section>
+
+  <section id="carta" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>La carta</h2>
+        <p>Todo se cocina al momento. Si algo se agotó, te lo contamos antes de que pidas.</p>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Categorías de la carta">
+        <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">Todo</button>
+        <button class="chip" data-filter="platos" role="tab" aria-selected="false">Platos</button>
+        <button class="chip" data-filter="compartir" role="tab" aria-selected="false">Para compartir</button>
+        <button class="chip" data-filter="postres" role="tab" aria-selected="false">Postres</button>
+      </div>
+
+      <div class="menu-grid">
+        <article class="dish" data-cat="platos">
+          <img src="img/pizza.jpg" alt="Pizza de muzzarella con albahaca" loading="lazy" width="400" height="300">
+          <div class="dish-top"><h3>Pizza muzzarella</h3><span class="price">$9.800</span></div>
+          <p>Masa de 48 horas, salsa de tomate triturado, muzzarella y albahaca fresca.</p>
+        </article>
+        <article class="dish" data-cat="platos">
+          <img src="img/milanesa.jpg" alt="Milanesa napolitana con papas fritas" loading="lazy" width="400" height="300">
+          <div class="dish-top"><h3>Milanesa napolitana</h3><span class="price">$12.500</span></div>
+          <p>De nalga, con jamón, salsa, muzzarella gratinada y papas fritas.</p>
+        </article>
+        <article class="dish" data-cat="platos">
+          <img src="img/ravioles.jpg" alt="Ravioles con salsa fileto" loading="lazy" width="400" height="300">
+          <div class="dish-top"><h3>Ravioles de ricota</h3><span class="price">$10.900</span></div>
+          <p>Pasta casera rellena de ricota y espinaca, con fileto o crema.</p>
+        </article>
+        <article class="dish" data-cat="compartir">
+          <img src="img/empanadas.jpg" alt="Empanadas criollas" loading="lazy" width="400" height="300">
+          <div class="dish-top"><h3>Empanadas (x6)</h3><span class="price">$8.400</span></div>
+          <p>Carne cortada a cuchillo, jamón y queso o humita. Al horno.</p>
+        </article>
+        <article class="dish" data-cat="compartir">
+          <img src="img/provoleta.jpg" alt="Provoleta a la parrilla" loading="lazy" width="400" height="300">
+          <div class="dish-top"><h3>Provoleta</h3><span class="price">$7.200</span></div>
+          <p>Gratinada con orégano y tomate. Viene con pan casero.</p>
+        </article>
+        <article class="dish" data-cat="postres">
+          <img src="img/flan.jpg" alt="Flan mixto con dulce de leche y crema" loading="lazy" width="400" height="300">
+          <div class="dish-top"><h3>Flan mixto</h3><span class="price">$5.600</span></div>
+          <p>Flan casero con dulce de leche y crema chantilly.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="section about">
+    <div class="wrap about-grid">
+      <img src="img/horno.jpg" alt="Horno de barro encendido" loading="lazy" width="400" height="300">
+      <div>
+        <h2>Un almacén que se volvió cocina</h2>
+        <p>Lucía abrió en 2014 un almacén en la esquina de casa. Con el tiempo, los vecinos empezaron a quedarse a comer, y el horno de barro terminó ocupando el centro del local.</p>
+        <p>Hoy seguimos igual: pocas cosas, bien hechas, con ingredientes que compramos a productores de la zona.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="visitanos" class="section">
+    <div class="wrap info-grid">
+      <div>
+        <h2>Visitanos</h2>
+        <dl class="info">
+          <dt>Dirección</dt>
+          <dd>Calle Ficticia 1234, Villa Crespo<br>Ciudad de Buenos Aires</dd>
+          <dt>Horarios</dt>
+          <dd>Martes a jueves: 12 a 15 y 19:30 a 23<br>Viernes y sábados: 12 a 16 y 19:30 a 00:30<br>Domingos: 12 a 17<br>Lunes cerrado</dd>
+          <dt>Teléfono y WhatsApp</dt>
+          <dd><a href="tel:+541155550142">+54 11 5555-0142</a></dd>
+          <dt>Instagram</dt>
+          <dd><a href="https://instagram.com/almacenlucia.ba" target="_blank" rel="noopener">@almacenlucia.ba</a></dd>
+        </dl>
+      </div>
+
+      <form id="reservas" class="reserva" novalidate>
+        <h2>Reservá tu mesa</h2>
+        <p class="hint">Completá los datos y te abrimos WhatsApp con el mensaje listo para enviar.</p>
+        <label>Nombre
+          <input type="text" name="nombre" autocomplete="name" required>
+        </label>
+        <div class="row">
+          <label>Personas
+            <select name="personas">
+              <option>1</option><option>2</option><option selected>4</option><option>6</option><option>8</option><option>10 o más</option>
+            </select>
+          </label>
+          <label>Fecha
+            <input type="date" name="fecha" required>
+          </label>
+        </div>
+        <label>Horario
+          <select name="hora">
+            <option>Mediodía</option><option selected>Noche</option>
+          </select>
+        </label>
+        <p class="error" role="alert" hidden>Completá tu nombre y la fecha para continuar.</p>
+        <button type="submit" class="btn btn-tomato">Enviar por WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <strong>Almacén Lucía</strong>
+    <span>Calle Ficticia 1234, Villa Crespo · +54 11 5555-0142</span>
+    <span>© <span id="year"></span> Almacén Lucía. Sitio de ejemplo con datos ficticios.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

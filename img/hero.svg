@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 640" role="img" aria-label="Pizza al horno de barro sobre una mesa">
+<rect width="600" height="640" fill="#21493a"/>
+<g opacity=".18" fill="none" stroke="#f4c95d" stroke-width="2"><path d="M0 120H600M0 240H600M0 360H600M0 480H600M0 600H600"/></g>
+<circle cx="300" cy="320" r="250" fill="#fbfaf7"/>
+<circle cx="300" cy="320" r="228" fill="#efe6d2"/>
+<circle cx="300" cy="320" r="208" fill="#d9a55b"/>
+<circle cx="300" cy="320" r="184" fill="#c8382a"/>
+<g fill="#f7e2a0">
+<ellipse cx="230" cy="250" rx="62" ry="48"/><ellipse cx="365" cy="262" rx="58" ry="46"/>
+<ellipse cx="300" cy="360" rx="70" ry="52"/><ellipse cx="205" cy="380" rx="44" ry="34"/>
+<ellipse cx="400" cy="380" rx="40" ry="32"/><ellipse cx="300" cy="215" rx="36" ry="26"/></g>
+<g fill="#2f7d4a"><ellipse cx="250" cy="260" rx="26" ry="12" transform="rotate(-30 250 260)"/>
+<ellipse cx="375" cy="270" rx="26" ry="12" transform="rotate(25 375 270)"/>
+<ellipse cx="305" cy="370" rx="28" ry="13" transform="rotate(10 305 370)"/>
+<ellipse cx="215" cy="385" rx="22" ry="10" transform="rotate(-20 215 385)"/></g>
+<g fill="#a3281c"><circle cx="190" cy="320" r="7"/><circle cx="420" cy="320" r="7"/><circle cx="300" cy="448" r="7"/><circle cx="270" cy="300" r="6"/><circle cx="335" cy="315" r="6"/></g>
+<g transform="translate(70 560)"><circle r="46" fill="#d6452b"/><circle cx="-14" cy="-14" r="10" fill="#fff" opacity=".25"/><path d="M0-46c-8-12-20-14-28-8 10 2 18 8 28 8 10 0 18-6 28-8-8-6-20-4-28 8z" fill="#2f7d4a"/></g>
+<g transform="translate(535 90)"><circle r="40" fill="#d6452b"/><path d="M0-40c-8-12-18-12-26-6 10 2 16 6 26 6 10 0 16-4 26-6-8-6-18-6-26 6z" fill="#2f7d4a"/></g>
+</svg>
