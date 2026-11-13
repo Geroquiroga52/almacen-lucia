@@ -71,6 +71,8 @@ p{margin:0 0 1rem}
 .price{font-weight:700;color:var(--tomato);white-space:nowrap}
 .dish p{color:var(--muted);margin:0;font-size:.98rem}
 .dish[hidden]{display:none}
+.dish{transition:transform .15s ease,background .15s ease}
+.dish:hover{transform: translateY(-4px)}
 
 /* Nosotros */
 .about{background:#e9dca9}
